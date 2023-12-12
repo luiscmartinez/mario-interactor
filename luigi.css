@@ -1,0 +1,5 @@
+body {
+  background-image: url("luigi_background.jpeg");
+  object-fit: cover;
+  background-size: 300px auto;
+}
