@@ -1,8 +1,9 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
 body {
   background-image: url("bowser-background.png");
-  /* background-size: cover; This will ensure that the image covers the whole body */
-  /* background-repeat: no-repeat; This prevents the image from repeating */
-  /* background-attachment: fixed; This keeps the image fixed in the background */
+  font-family: "Press Start 2P";
   object-fit: cover;
   background-size: 300px auto;
 }
