@@ -11,15 +11,20 @@
 
 </head>
 
-<body>
+<body id="btn">
     <div class="container">
         <!-- <div class="music-thumbnail"> -->
         <img src="mario_2.webp" alt="Description of the GIF" class="music-thumbnail">
         <!-- </div> -->
-        <audio controls src="/super_mario_bros_theme_song.mp3" autoplay>
+        <audio id="myAudio" controls src="/super_mario_bros_theme_song.mp3" autoplay>
             <a href="/super_mario_bros_theme_song.mp3"> Download audio </a>
         </audio>
     </div>
+    <script>
+        document.getElementById("btn").addEventListener("click", function () {
+            document.getElementById("myAudio").play();
+        });
+    </script>
 </body>
 
 </html>

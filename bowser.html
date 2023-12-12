@@ -10,15 +10,21 @@
 
 </head>
 
-<body>
+<body id="btn">
     <div class="container">
         <!-- <div class="music-thumbnail"> -->
         <img src="bowser-gif.gif" alt="Description of the GIF" class="music-thumbnail">
         <!-- </div> -->
-        <audio controls src="/peaches.mp3" autoplay>
+        <audio id="myAudio" src="/peaches.mp3" autoplay>
             <a href="/peaches.mp3"> Download audio </a>
         </audio>
     </div>
+    <script>
+        document.getElementById("btn").addEventListener("click", function () {
+            document.getElementById("myAudio").play();
+        });
+    </script>
 </body>
+
 
 </html>
